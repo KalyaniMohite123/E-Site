@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
-        <div className="">
+        <div className="" style={{width:30}}>
           <div></div>
           <span></span>
         </div>
@@ -46,7 +46,7 @@ const Hero = () => {
 
        </div>
        <div className="hero-bottons">
-        <buttons className="btn">GET STARTED</buttons>
+        <buttons className="btn" style={{width:30}}>GET STARTED</buttons>
         {/* <buttons className="btn">LEARN MORE</buttons> */}
 
       </div>
