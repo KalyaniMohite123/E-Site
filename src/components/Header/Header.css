@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.header li{
+  white-space: nowrap;
+}
 .logo{
     width: 5rem;
     height: 4rem;

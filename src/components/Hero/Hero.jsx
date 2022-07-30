@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
-        <div className="" style={{width:30}}>
+        <div className="">
           <div></div>
           <span></span>
         </div>
@@ -30,6 +30,10 @@ const Hero = () => {
         </div>
         <br />
        <div className="figures">
+       <div style={{ width: 30 }}>
+              <span></span>
+              <span></span>
+            </div>
          <div>
               <span>+14000</span>
               <span>Our Services</span>
@@ -46,10 +50,11 @@ const Hero = () => {
 
        </div>
        <div className="hero-bottons">
-        <buttons className="btn" style={{width:30}}>GET STARTED</buttons>
-        {/* <buttons className="btn">LEARN MORE</buttons> */}
-
-      </div>
+          <buttons style={{ marginLeft: "5%" }} className="btn">
+            GET STARTED
+          </buttons>
+        
+        </div>
       </div>
      
     
