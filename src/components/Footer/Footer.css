@@ -1,0 +1,30 @@
+.footer-container{
+    position: relative;
+    background-color: orange;
+    margin-top: 12px;
+}
+.footer-container>hr{
+    border: 1px solid orange;
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    
+}
+.social-links{
+    display: flex;
+    gap: 9rem;
+    color: black;
+
+}
+.social-links .fa{
+    display: flex;
+    gap: 9rem;
+    color: black;
+
+}

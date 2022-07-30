@@ -1,0 +1,67 @@
+.Join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+    margin-top: 113px;
+}
+
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 412px;
+}
+/* .left-j>hr{
+    position: absolute;
+    width: 10.5;
+    border: 2px solid orange;
+    border-radius: 20%;
+    margin: 10px 0;
+} */
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+}
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email-container{
+    display: flex;
+    gap: 3rem;
+    /* background-color: rgb(83, 66, 66); */
+    padding: 1rem;
+    width: 35%;
+    margin-top: 160px;
+   
+
+}
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: lightgray;
+}
+::placeholder{
+    color: lightgrey;
+    font-size: 17px;
+    padding-left: 12px;
+}
+.btn-j{
+    background-color: orange;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 768px){
+   .email-container{
+    display: flex;
+    gap: 3rem;
+    /* background-color: rgb(83, 66, 66); */
+    padding: 1rem;
+    width: 35%;
+    margin-top: 160px;
+   } 
+}

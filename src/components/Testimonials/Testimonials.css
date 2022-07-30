@@ -1,0 +1,77 @@
+.Testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: antiquewhite;
+
+}
+.left-t>:nth-child(1)
+{
+    color: orange;
+    font-weight: bold;
+    margin-top: 35px;
+    font-size: 33px;
+}
+.right-t{
+    flex: 1;
+    position: relative;
+}
+.right-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    margin-top: 33px;
+    top: 2rem;
+}
+.right-t>:nth-child(1)
+{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+    margin-top: 23px;
+}
+.right-t>:nth-child(2)
+{
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    top: 7rem;
+    background: rgb(248, 125, 67);
+    margin-left: 350px;
+}
+.arrows{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    margin-top: 94px;
+}
+.arrows>i{
+    width: 1.5rem;
+    cursor: pointer;
+    color: brown;
+}
+@media screen and (max-width: 768px){
+.Testimonials{
+    margin-top: 22px;
+    padding-left: 23px;
+} 
+.left-t{
+    margin-top: 423px;
+    padding-left: 113px;
+}
+}
